@@ -2,23 +2,13 @@
 
 
 
-<p align="center">
+\[!\[Conference](https://img.shields.io/badge/Conference-IEEE%20GINOTECH%202025-blue)](https://ieeexplore.ieee.org/document/11076756)
 
+\[!\[DOI](https://img.shields.io/badge/DOI-10.1109%2FGINOTECH63460.2025.11076756-red)](https://doi.org/10.1109/GINOTECH63460.2025.11076756)
 
+\[!\[Blockchain](https://img.shields.io/badge/Blockchain-Ethereum-blueviolet)](https://ethereum.org/)
 
-\*\*IEEE GINOTECH 2025\*\*
-
-
-
-Predictive Maintenance • Blockchain • Machine Learning • Ethereum • Chainlink
-
-
-
-</p>
-
-
-
-\---
+\[!\[ML](https://img.shields.io/badge/ML-XGBoost-orange)](https://xgboost.readthedocs.io/)
 
 
 
@@ -26,95 +16,93 @@ Predictive Maintenance • Blockchain • Machine Learning • Ethereum • Chai
 
 
 
-This repository accompanies our IEEE conference paper on a decentralized framework for \*\*dynamic vehicle insurance premium calculation\*\* using predictive maintenance, blockchain, and smart contracts.
+This repository contains supplementary material for our IEEE conference paper on dynamic vehicle insurance premium calculation using predictive maintenance, blockchain, and decentralized oracles.
 
 
 
-Unlike traditional insurance models that rely on static driver and vehicle attributes, this framework continuously evaluates vehicle health using machine learning and securely records predictions on the blockchain to enable transparent, real-time premium adjustments.
+Traditional insurance pricing depends on static factors such as vehicle age and driving history. This work proposes a decentralized framework that uses real-time vehicle health data to support fairer, data-driven premium adjustment.
 
 
 
-\---
-
-
-
-\## System Workflow
+\## Proposed Workflow
 
 
 
 <p align="center">
 
-<img src="figures/architecture.png" width="900">
+&#x20; <img src="figures/architecture.png" alt="System architecture" width="900">
 
 </p>
 
 
 
-\---
+The framework combines:
 
 
 
-\## Key Features
+\- OBD sensor data collection
+
+\- XGBoost-based predictive maintenance
+
+\- Flask API for serving predictions
+
+\- Chainlink decentralized oracle network
+
+\- Ethereum smart contracts
+
+\- Dynamic premium calculation
 
 
 
-\* Machine Learning-based predictive maintenance
-
-\* XGBoost engine health prediction
-
-\* Ethereum smart contracts
-
-\* Chainlink decentralized oracle integration
-
-\* Dynamic insurance premium calculation
-
-\* Transparent and tamper-proof vehicle health records
+\## Key Contributions
 
 
 
-\---
+\- XGBoost-based predictive maintenance model
+
+\- Blockchain-enabled premium adjustment
+
+\- Chainlink oracle integration
+
+\- Smart contract-based premium logic
+
+\- Transparent and tamper-resistant vehicle health records
+
+\- Web3-based interface for insurance visibility
 
 
 
-\## Performance
+\## Experimental Results
 
 
 
-\### Machine Learning
+| Model | Accuracy | Precision | Recall | F1 Score |
+
+|---|---:|---:|---:|---:|
+
+| XGBoost | 75% | 0.75 | 1.00 | 0.85 |
+
+| Random Forest | 73% | 0.68 | 0.98 | 0.80 |
+
+| Gradient Boosting | 74% | 0.70 | 0.99 | 0.82 |
 
 
 
-| Model             | Accuracy | F1 Score |
-
-| ----------------- | -------: | -------: |
-
-| XGBoost           |      75% |     0.85 |
-
-| Random Forest     |      73% |     0.80 |
-
-| Gradient Boosting |      74% |     0.82 |
+\### Blockchain Metrics
 
 
 
-\### Blockchain
+| Metric | Value |
 
+|---|---:|
 
+| Average Transaction Time | 14.3 seconds |
 
-| Metric                   |  Value |
+| Oracle Response Time | 3.2 seconds |
 
-| ------------------------ | -----: |
+| API Success Rate | 99.8% |
 
-| Oracle Response Time     |  3.2 s |
-
-| API Success Rate         |  99.8% |
-
-| Average Transaction Time | 14.3 s |
-
-| Storage Efficiency       |  92.7% |
-
-
-
-\---
+| Storage Efficiency | 92.7% |
 
 
 
@@ -122,23 +110,7 @@ Unlike traditional insurance models that rely on static driver and vehicle attri
 
 
 
-\* Python
-
-\* XGBoost
-
-\* Flask
-
-\* Ethereum
-
-\* Solidity
-
-\* Chainlink
-
-\* Web3.js
-
-
-
-\---
+Python, XGBoost, Flask, Ethereum, Solidity, Chainlink, Web3.js
 
 
 
@@ -146,31 +118,21 @@ Unlike traditional insurance models that rely on static driver and vehicle attri
 
 
 
-\*\*Decentralized Predictive Maintenance Framework for Dynamic Vehicle Insurance Premiums\*\*
+\*\*Decentralized Predictive Maintenance Framework for Dynamic Vehicle Insurance Premiums\*\*  
+
+\*\*2025 IEEE Global Conference in Emerging Technology (GINOTECH)\*\*
 
 
 
-2025 IEEE Global Conference in Emerging Technology (GINOTECH)
+\*\*DOI:\*\* https://doi.org/10.1109/GINOTECH63460.2025.11076756  
+
+\*\*IEEE Xplore:\*\* https://ieeexplore.ieee.org/document/11076756
 
 
 
-\*\*DOI\*\*
+Copyright © IEEE.  
 
-
-
-https://doi.org/10.1109/GINOTECH63460.2025.11076756
-
-
-
-\*\*IEEE Xplore\*\*
-
-
-
-https://ieeexplore.ieee.org/document/11076756
-
-
-
-\---
+This repository contains supplementary research material only. The final IEEE-published PDF is not distributed here.
 
 
 
@@ -178,33 +140,23 @@ https://ieeexplore.ieee.org/document/11076756
 
 
 
-Please cite the associated IEEE publication if you use this work.
-
-
-
 See `CITATION.cff`.
 
 
 
-\---
+\## Future Work
 
 
 
-\## Authors
+\- Real-time OBD integration
 
+\- Layer-2 blockchain deployment
 
+\- IPFS-based storage
 
-\* Rajvardhan Magdum
+\- Deep learning for predictive maintenance
 
-\* Mrunmai Shinde
+\- GPS-based risk profiling
 
-\* \*\*Harsh Rudrawar\*\*
-
-\* Prajwal Wajire
-
-\* Swapnaja Hiray
-
-\* Sumitra A. Jakhete
-
-
+\- Multi-stakeholder insurance ecosystem
 
