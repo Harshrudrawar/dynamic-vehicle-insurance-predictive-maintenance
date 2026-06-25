@@ -18,7 +18,7 @@ Traditional vehicle insurance pricing primarily relies on static attributes such
 ## Proposed System Workflow
 
 <p align="center">
-  <img src="figures/architecture.png" alt="System Workflow" width="200">
+  <img src="figures/architecture.png" alt="System Workflow" width="400">
 </p>
 
 ---
