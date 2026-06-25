@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+
+title: "Decentralized Predictive Maintenance Framework for Dynamic Vehicle Insurance Premiums"
+
+message: >
+If you use this repository or build upon this research,
+please cite the associated IEEE conference paper.
+
+type: conference-paper
+
+authors:
+
+* family-names: Magdum
+  given-names: Rajvardhan
+
+* family-names: Shinde
+  given-names: Mrunmai
+
+* family-names: Rudrawar
+  given-names: Harsh
+
+* family-names: Wajire
+  given-names: Prajwal
+
+* family-names: Hiray
+  given-names: Swapnaja
+
+* family-names: Jakhete
+  given-names: Sumitra A.
+
+conference:
+name: "2025 IEEE Global Conference in Emerging Technology (GINOTECH)"
+
+year: 2025
+
+doi: 10.1109/GINOTECH63460.2025.11076756
+
+url: https://doi.org/10.1109/GINOTECH63460.2025.11076756
+
+repository-code: "https://github.com/Harshrudrawar/dynamic-vehicle-insurance-predictive-maintenance"
+
+keywords:
+
+* Predictive Maintenance
+* Machine Learning
+* XGBoost
+* Blockchain
+* Ethereum
+* Chainlink
+* Smart Contracts
+* Vehicle Insurance
+* Web3
